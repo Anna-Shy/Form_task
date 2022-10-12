@@ -1,0 +1,49 @@
+.map__img {
+    width: 895px;
+    height: 950px;
+
+    position: absolute;
+    left: 814px;
+    top: -28px;
+    object-fit: fill;
+    border-radius: 50%;
+    box-shadow: inset 0px 16px 42px rgba(0, 0, 0, 0.1);
+}
+
+.cartoon5 {
+    position: absolute;
+    left: 59.01px;
+    top: 51.55px;
+
+    transform: rotate(5deg);
+}
+
+.cartoon6 {
+    position: absolute;
+    left: 735.9px;
+    top: 558.47px;
+}
+
+.cartoon7 {
+    position: absolute;
+    left: 763px;
+    top: 516px;
+}
+
+.cloud1 {
+    position: absolute;
+    left: -26.18px;
+    top: 316.5px;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 491.82px;
+    top: 711.5px;
+}
+
+.cloud3 {
+    position: absolute;
+    left: 542.81px;
+    top: 97.5px;
+}

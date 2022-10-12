@@ -1,0 +1,37 @@
+.footer {
+    height: 200px;
+    background: #FAFAFA;
+    border: 1px solid #D8D8D8;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    padding: 79px 0 0 343px;
+}
+
+.social__link {
+    margin-right: 25px;
+}
+
+.cartoon1 {
+    position: absolute;
+    left: 67.02px;
+    bottom: -68px;
+}
+
+.cartoon2 {
+    position: absolute;
+    left: 1133.46px;
+    top: 931px;
+}
+
+.cartoon3 {
+    position: absolute;
+    width: 90px;
+    top: 1002px;
+    right: 1px;
+    bottom: 1px;
+
+    transform: rotate(20deg);
+}

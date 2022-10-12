@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Axios from "axios";
 
+import { AppFooter } from "./AppComponent/AppFooter/AppFooter";
+import { AppMain } from "./AppComponent/AppMain/AppMain";
+
 import "./App.css";
 
 function App() {
@@ -10,7 +13,7 @@ function App() {
 
   const [userList, setUserList] = useState([]);
 
-  const addUser = () => {
+  const addMessage = () => {
     Axios.post("http://localhost:4000/create", {
       name: name,
       mail: mail,
@@ -29,33 +32,13 @@ function App() {
 
   return (
     <div className="App">
-      <div className="information">
-        <label>Name:</label>
-        <input
-          type="text"
-          onChange={(event) => {
-            setName(event.target.value);
-          }}
-        />
-        <br />
-        <label>Email:</label>
-        <input
-          type="text"
-          onChange={(event) => {
-            setMail(event.target.value);
-          }}
-        />
-        <br />
-        <label>Description:</label>
-        <input
-          type="text"
-          onChange={(event) => {
-            setDescript(event.target.value);
-          }}
-        />
-        <br />
-        <button onClick={addUser}>Add Employee</button>
-      </div>
+      <AppMain
+        setName={setName}
+        setMail={setMail}
+        setDescript={setDescript}
+        addMessage={addMessage}
+      />
+      <AppFooter />
     </div>
   );
 }

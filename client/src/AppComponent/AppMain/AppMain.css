@@ -1,0 +1,65 @@
+.App__form {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 563px;
+    max-height: 575px;
+
+    margin: 179px 0 174px 147px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 130%;
+
+    margin-bottom: 30px;
+}
+
+input {
+    width: 557px;
+    height: 93px;
+
+    background: #fff;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 557px;
+    height: 189px;
+
+    resize: none;
+    background: #fff;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+
+    margin-bottom: 23px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: 'Apercu Arabic Pro';
+
+    padding: 30px 45px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #2D2D2D;
+}
+
+button {
+    width: 218px;
+    height: 73px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    border: none;
+    border-radius: 500px;
+    color: #fff;
+    background: #FAD34F;
+}

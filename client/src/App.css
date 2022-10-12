@@ -1,4 +1,8 @@
-.App {
-  width: 1440px;
-}
+@import url(//db.onlinewebfonts.com/c/c627f5f4597153a6103abfda8417df0a?family=Apercu+Arabic+Pro);
 
+.App {
+  box-sizing: border-box;
+  font-family: 'Apercu Arabic Pro';
+
+  max-width: 1440px;
+}
